@@ -3,6 +3,7 @@
 import { Gpts } from "@/app/types/gpts";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import Link from "next/link";
+import Image from "next/image";
 
 interface Props {
   gpts: Gpts[];
