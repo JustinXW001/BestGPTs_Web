@@ -44,7 +44,7 @@ export default () => {
 
   return (
     <>
-      {/* <Brand count={gptsCount} /> */}
+      <Brand count={gptsCount} />
       {/* <ProductHunt /> */}
       {/* <Search setGpts={setGpts} setLoading={setLoading} /> */}
       <GptsList gpts={gpts} loading={loading} />
