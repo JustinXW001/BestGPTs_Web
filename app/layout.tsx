@@ -9,11 +9,11 @@ import type { Metadata } from "next";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "GPTs Works - Third-party GPTs store",
+  title: "BestGPTs - Search The Best GPTs For You.",
   description:
-    "GPTs Works is a Third-party GPTs store. Support seach GPTs by chatting.",
+    "You can get the best GPTs here.",
   keywords:
-    "GPTs, GPTs store, GPTs Works, ChatGPT, OpenAI GPTs, vector search GPTs",
+    "GPTs, GPTs store, Best GPTs, ChatGPT, OpenAI GPTs, vector search GPTs",
 };
 
 export default function RootLayout({
