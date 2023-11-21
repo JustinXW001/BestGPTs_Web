@@ -3,7 +3,7 @@
 import { Gpts } from "@/app/types/gpts";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import Link from "next/link";
-import Image from "next/image";
+
 
 interface Props {
   gpts: Gpts[];
@@ -16,9 +16,6 @@ export default ({ gpts, loading }: Props) => {
 
       <div className= "mx-auto max-w-5xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
             
-        <div className= "mx-auto mb-20 flex max-w-3xl flex-col text-center md:mb-20 lg:mb-22">
-          <h2 className= "text-3xl font-bold md:text-5xl">Best GPTs For You</h2>
-        </div>
             
             <div >
               {!loading ? (

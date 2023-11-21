@@ -10,14 +10,15 @@ export default ({ count }: Props) => {
       <div className= "mx-auto w-full max-w-7xl px-4 mt-12 md:mt-24">
         <div className= "mx-auto w-full max-w-6xl text-center">
           <h2 className= "text-3xl font-bold md:text-7xl">
-          Search The Best GPTs For You
+          Best GPTs For You
           </h2>
           <p className= "mt-4 mb-4 md:mt-12 md:mb-8 text:lg md:text-4xl">
-            <span className= "text-primary">{count}</span> amazing GPTs stored.
+            <span className= "text-[#d6a701]">{count}</span> amazing GPTs stored.
             {/* <a
               href="https://github.com/airyland/gptshunter.com/issues/1"
               target="_blank"
               className= "text-sm text-primary mx-2"
+              hover:text-[#d6a701]
             >
               Submit yours 👉
             </a> */}
