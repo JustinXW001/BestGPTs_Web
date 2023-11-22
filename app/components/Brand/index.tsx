@@ -12,7 +12,7 @@ export default ({ count }: Props) => {
           <h2 className= "text-3xl font-bold md:text-7xl">
           Best GPTs For You
           </h2>
-          <p className= "mt-4 mb-4 md:mt-12 md:mb-8 text:lg md:text-4xl">
+          <p className= "mb-4 md:mt-3 md:mb-12 text:lg md:text-4xl">
             <span className= "text-[#d6a701]">{count}</span> amazing GPTs stored.
             {/* <a
               href="https://github.com/airyland/gptshunter.com/issues/1"

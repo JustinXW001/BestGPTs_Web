@@ -46,7 +46,7 @@ export default () => {
     <>
       <Brand count={gptsCount} />
       {/* <ProductHunt /> */}
-      {/* <Search setGpts={setGpts} setLoading={setLoading} /> */}
+      <Search setGpts={setGpts} setLoading={setLoading} />
       <GptsList gpts={gpts} loading={loading} />
     </>
   );
