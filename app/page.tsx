@@ -7,6 +7,7 @@ import { Gpts } from "./types/gpts";
 import GptsList from "./components/GptsList";
 import ProductHunt from "./components/ProductHunt";
 import Search from "./components/Search";
+import Head from "next/head";
 
 export default () => {
   const [gpts, setGpts] = useState<Gpts[]>([]);
